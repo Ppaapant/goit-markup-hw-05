@@ -508,7 +508,7 @@ ul {list-style: none;
 
 .modal-form{
     display:flex;
-    gap:4px;
+    gap: 24px;
 }
 
 .label-form-modal{
@@ -556,7 +556,7 @@ ul {list-style: none;
 
 .page-logo-icon-modal{
     margin-left:16px;
-    
+
 
 }
 
