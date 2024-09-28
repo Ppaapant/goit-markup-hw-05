@@ -676,9 +676,11 @@ ul {list-style: none;
 
 .form-div-email{
     position: relative;
+    margin-right:auto;
+    margin-left:auto;
 }
 
-.modal-overlay-svgfile-but{
+.modal-overlay-svgfile-email{
     position: absolute;
     left: 16px;
     top: 50%; 
@@ -686,4 +688,6 @@ ul {list-style: none;
 
 }
 
-.input-email-username:focus + ..modal-overlay-svgfile-but
+.input-email-username:focus + .modal-overlay-svgfile-email{
+    fill: #4D5AE5;
+}
