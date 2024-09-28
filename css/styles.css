@@ -654,7 +654,12 @@ ul {list-style: none;
 
 .input-modal{
     position: relative;
-
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color:#8e8f99; 
+    display: block;
+    margin-bottom: 4px; 
 }
 
 .input-email-username{
@@ -667,4 +672,8 @@ ul {list-style: none;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-color: #4D5AE5;
+}
+
+.form-div-email{
+    position: relative;
 }
