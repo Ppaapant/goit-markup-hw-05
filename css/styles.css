@@ -570,6 +570,7 @@ ul {list-style: none;
     height:100%;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    padding: 72px 24px 24px 24px;
 }
 
 .modal{
@@ -582,8 +583,7 @@ ul {list-style: none;
     background: #fcfcfc;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-   
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .but-hidden-overplay{
@@ -611,4 +611,18 @@ ul {list-style: none;
 .but-hidden-overplay:focus{
     background-color: #404bbf; 
     border: none;
+}
+
+.modal-overlay-svgfile-but{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.modal-overlay-svgfile-but:hover{
+    fill:#ffffff;
+
+}
+
+.modal-overlay-svgfile-but:focus{
+    fill:#ffffff;
 }
