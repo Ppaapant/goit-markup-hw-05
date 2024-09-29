@@ -747,9 +747,9 @@ border-color: #4D5AE5;
 }
 
 .visually-hidden[type="checkbox"]:checked + .privacy-label-modal .privacy-policy{
-    background-color:#404bbf;;
+    background-color:var(#404bbf);
     border: none;
-    fill: #F4F4FD; ;
+    fill: var(#F4F4FD);
 }
 
 .privacy_policy_link{
