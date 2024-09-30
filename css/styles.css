@@ -744,6 +744,7 @@ border-color: #4D5AE5;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right:8px;
 }
 
 .modal-input-sheckbox:checked + .privacy-label-modal > .privacy-policy{
@@ -773,4 +774,5 @@ border-color: #4D5AE5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-left:auto;
     margin-right:auto;
+    border-radius:4px;
 }
